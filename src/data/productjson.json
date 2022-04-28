@@ -14,9 +14,12 @@
         "id": 2,
         "name": "El Principito editado devuelta",
         "price": "4000",
+        "description": "Libro El Principito, edicion limitada",
+        "categoryId": 1,
         "projectId": 2,
         "discount": "20",
-        "stock": false
+        "stock": false,
+        "image": "/img/el-principito-jpg.jpg"
     },
     {
         "id": 3,
@@ -33,8 +36,11 @@
         "id": 4,
         "name": "Harry Potter",
         "price": "1500",
+        "description": "Libro HArry Potter, edicion limitada",
+        "categoryId": 2,
         "projectId": 4,
         "discount": "15",
+        "image": "/img/Harry.jpg",
         "stock": false
     },
     {
@@ -138,16 +144,24 @@
     },
     {
         "id": 14,
-        "name": "regla verde 20 cm",
+        "name": "voligoma de 30 gr.",
         "price": "10",
+        "description": "Adhesivo sintetico de 30 gr",
+        "categoryId": 1,
+        "projectId": 13,
         "discount": "0",
+        "image": "/img/10VOLIGOMADE30.png",
         "stock": false
     },
     {
         "id": 15,
-        "name": "regla verde 30 cm",
+        "name": "Broche MIT 50/1000",
         "price": "100",
+        "description": "Broche para aborchadora MIT 50",
+        "categoryId": 1,
+        "projectId": 13,        
         "discount": "0",
+        "image": "/img/66 BROCHE MIT 50 1000.jpg",
         "stock": false
     }
 ]

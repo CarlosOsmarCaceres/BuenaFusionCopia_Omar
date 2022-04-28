@@ -27,17 +27,23 @@
            <h2>Productos Destacados!</h2>
            <br>
       <section class="productos-fran">
-        <article class="product_index">
-          <img width="100%" src="/img/Corazon-Delator.jpg" alt="Corazon-Delator">
-          <div class="detalle_index">
-            <strong> <p class="precio">$2.700</p></strong> 
-            <strong><p class="descuento">40% OFF</p></strong> 
-            <strong>Libro Corazon Delator</strong>
-          <button class="button_index"> <i class= "icono fa-solid fa-cart-plus"></i></button>
-          </div>
-        </article>
+        
+        <% productos.forEach(element => { %>
+          <a class="Container_omar" href="../producto/detalle/<%= element.id  %>">
+            <article class="product_index">
+              <img width="100%" src="<%= element.image  %>" alt="<%= element.image  %>">
+              <div class="detalle_index">
+                <strong> <p class="precio">$<%= element.price %></p></strong> 
+                <strong><p class="descuento"><%= element.discount %>% OFF</p></strong> 
+                <strong><%= element.name  %></strong>
+              <button class="button_index"> <i class= "icono fa-solid fa-cart-plus"></i></button>
+              </div>
+            </article>
+          </a>
+        <% }) %>
+
         <br>
-        <article class="product_index">
+        <!-- <article class="product_index">
           <img width="100%" src="/img/el-principito-jpg.jpg" alt=" El Principito">
           <div class="detalle_index">
             <strong><p class="precio">$3.000</p></strong> 
@@ -149,7 +155,7 @@
             <strong>Manga Naruto</strong>
             <button class="button_index"> <i class= "icono fa-solid fa-cart-plus"></i></button>
           </div>
-        </article>
+        </article> -->
       </section>
  </main> 
         
