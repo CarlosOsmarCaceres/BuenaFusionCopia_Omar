@@ -29,7 +29,7 @@
         "categoryId": 2,
         "projectId": 3,
         "discount": 0,
-        "image": "/img/marcadorPizzini.jpg",
+        "image": "/img/corazon_oscuro.jpg",
         "stock": true
     },
     {
@@ -45,13 +45,13 @@
     },
     {
         "id": 5,
-        "name": "Marcador Sharpie",
+        "name": "La Bella Durmiente",
         "price": 700,
         "description": "Marcador Sharpie- Crea tus diseños,edicion limitada, con lapiz de regalo ",
         "categoryId": 2,
         "projectId": 5,
         "discount": 0,
-        "image": "/img/marcadorSharpie.jpg",
+        "image": "/img/labelladurmiente.jpg",
         "stock": true
     },
     {
